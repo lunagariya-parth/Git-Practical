@@ -58,17 +58,23 @@
 
   
  ## 5. Drop commit
-  1.Remove some commit from feature branch.
+  1.Remove some commit from main branch.
    ```sh 
-      git reset --soft HEAD~2 
+      git reset --soft HEAD~3 
    ```
-  * with this command the last two commits will be removed.
+  * with this command the last three commits will be removed.
+  
+  * with this command the last three commits will be removed.
+  * To remove the last commit from remote repo, we can simply run git reset --SOFT HEAD^
 
-  * To remove the last commit from git, we can simply run git reset --SOFT HEAD^
-
-  * If we want to remove multiple commits from the top, we can run git reset --SOFT HEAD~2 to remove the last two commits.
+  * If we want to remove multiple commits from the top, we can run git reset --SOFT HEAD~3 to remove the latest three commits.
 
   * We can give the number of commits which we want to remove.
+
+  2.After that push your changes to remote repo
+    ```sh 
+        git push -f origin main 
+   ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
