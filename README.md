@@ -36,7 +36,7 @@
 
 
 ## 3. Change commit message
- 1.Commit push on commit in feature branch and then change commit message
+ 1.Commit in feature branch and then change commit message
   ```sh 
      git commit --amend -m "changed commit message" 
   ```
