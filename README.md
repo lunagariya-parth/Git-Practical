@@ -51,7 +51,7 @@
   ```
   * Example:
   ```sh 
-     git cherry-pick adff5634aa38365e2d32c2a9fdb30e8c5fa44528
+     git cherry-pick ebebc6b
   ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
