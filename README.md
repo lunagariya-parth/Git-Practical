@@ -7,11 +7,11 @@
 1. Make example of pull request and two branch merge event.
 2. Create a feature branch.
 
-3. After commit Push this new branch.
+3. After commit, push this new branch.
 
 4. Create Pull Request on GitHub.
 
-5. After approving the pull request dev branch will be merged with the master branch. In this case we own the master branch so we can approve the pull      request.
+5. After approving the pull request dev branch will be merged with the main branch. In this case we own the master branch so we can approve the pull request.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
