@@ -11,26 +11,26 @@
 
 4. Create Pull Request on GitHub.
 
-5. After approving the pull request dev branch will be merged with the master branch. In this case we own the master branch so we can approve the pull      request.
+5. After approving the pull request dev branch will be merged with the main branch. In this case we own the main branch so we can approve the pull      request.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ## 2. Rebase
  
-1. Try to rebase feature branch with master branch
+1. Try to rebase rebase-prac branch with main branch
     * rebase is used to maintain a clean project history.
    
   ```sh 
-    git rebase master
+    git rebase main
   ```
   
- 2. push master branch after the commit.
+ 2. push main branch after the commit.
 
- 3. create another branch named feature.
+ 3. create another branch named rebase-prac.
 
- 4. push this feature branch after commit.
+ 4. push this rebase-prac branch after commit.
 
- 5. Now to rebase feature branch with master branch we have to write "git rebase master " command.
+ 5. Now to rebase rebase-prac branch with main branch we have to write "git rebase main " command.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -45,7 +45,7 @@
 
  
 ## 4. cherry pick
- 1.Pick some commits from feature branch to master branch
+ 1.Pick some commits from feature branch to main branch
   ```sh 
      git cherry-pick (commit-id)  
   ```
