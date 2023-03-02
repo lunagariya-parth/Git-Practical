@@ -71,10 +71,12 @@
 
   * We can give the number of commits which we want to remove.
 
-  2.After that push your changes to remote repo
-    ```sh 
-        git push -f origin main 
-   ```
+  2.After that push your changes to remote repo.
+    
+      git push -f origin main 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+    
+    
+ <p align="right">(<a href="#readme-top">back to top</a>)</p>
+  
+<h3 align="center">Thank you</h3>
