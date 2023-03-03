@@ -11,7 +11,7 @@
 
 4. Create Pull Request on GitHub.
 
-5. After approving the pull request dev branch will be merged with the main branch. In this case we own the main branch so we can approve the pull      request.
+5. After approving the pull request feature branch will be merged with the main branch. In this case we own the main branch so we can approve the pull      request.
 
 
 
